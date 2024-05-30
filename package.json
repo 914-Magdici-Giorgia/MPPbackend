@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "app.js",
+    "start": "nodemon app.js ",
     "dev": "nodemon app.js ",
+
     "test": "jest --coverage --verbose --watchAll --detectOpenHandles"
   },
   "dependencies": {
